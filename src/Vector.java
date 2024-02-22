@@ -27,13 +27,13 @@ public class Vector {
     public Point getOrigin(){
         return this.origin;
     }
-    public float getX(){
+    public float getA(){
         return this.x;
     }
-    public float getY(){
+    public float getB(){
         return this.y;
     }
-    public float getZ(){
+    public float getC(){
         return this.z;
     }
     

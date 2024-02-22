@@ -11,6 +11,9 @@ public class Plane {
         this.p = p;
         this.q = q;
         this.r = r;
+        Vector v = new Vector(p, q);
+        Vector w =  new Vector(p, r);
+        this.normal = VectorOperation.crossProduct(v, w);
     }
     private Plane(Point p, Vector n){
         this.p = p;
