@@ -1,3 +1,5 @@
+package Algebra;
+
 public class VectorOperation {
     private VectorOperation(){
         System.out.println("Stop it, get some help");

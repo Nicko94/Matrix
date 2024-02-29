@@ -1,3 +1,5 @@
+package Algebra;
+
 public class Point {
     private float x = 0F;
     private float y = 0F;

@@ -1,3 +1,5 @@
+package Algebra;
+
 public class Algebra {
     private Algebra(){
         // Functionalities needed:
@@ -6,7 +8,7 @@ public class Algebra {
         // Calculate projection of an object to another
         // Calculate distance between two objects
         //
-        // Decide if the following functionalities will be added to this class (Algebra) or to another class specialized for rendering tasks
+        // Decide if the following functionalities will be added to this class (Algebra.Algebra) or to another class specialized for rendering tasks
         // Z axis shrinking effect
         // Z axis dimming
         // Visibility rendering order (no object clipping)

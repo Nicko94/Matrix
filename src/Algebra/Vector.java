@@ -1,3 +1,5 @@
+package Algebra;
+
 public class Vector {
     private float x = 0F;
     private float y = 0F;
@@ -39,23 +41,23 @@ public class Vector {
     
     /* OLD CONSTRUCTORS */
 
-    //public Vector(float x, float y, float z){ // Defined from the coordinates of a point
-    //    this.origin = new Point(0F, 0F, 0F);
+    //public Algebra.Vector(float x, float y, float z){ // Defined from the coordinates of a point
+    //    this.origin = new Algebra.Point(0F, 0F, 0F);
     //    this.x = x;
     //    this.y = y;
     //    this.z = z;
     //    this.magnitude = calculateMagnitude(x, y, z);
     //    System.out.println("Created new vector >> [X: " + x + ", Y: " + y + ", Z: " + z + "]");
     //}
-    //public Vector(Point p){ // Defined from a point
-    //    this.origin = new Point(0, 0, 0);
+    //public Algebra.Vector(Algebra.Point p){ // Defined from a point
+    //    this.origin = new Algebra.Point(0, 0, 0);
     //    this.x = p.getX();
     //    this.y = p.getY();
     //    this.z = p.getZ();
     //    this.magnitude = calculateMagnitude(x, y, z); // Check this
     //    System.out.println("Created new vector >> [X: " + x + ", Y: " + y + ", Z: " + z + "]");
     //}
-    //public Vector(float x, float y, float z, Point p){ // Defined from the coordinates of a point with a point origin
+    //public Algebra.Vector(float x, float y, float z, Algebra.Point p){ // Defined from the coordinates of a point with a point origin
     //    this.origin = p;
     //    this.x = x;
     //    this.y = y;
@@ -63,15 +65,15 @@ public class Vector {
     //    this.magnitude = calculateMagnitude(x, y, z); // Wrong?
     //    System.out.println("Created new vector >> [X: " + x + ", Y: " + y + ", Z: " + z + "]");
     //}
-    //public Vector(Point p, float x, float y, float z){ // Defined from a point with the coordinates of the origin
-    //    this.origin = new Point(x, y, z);
+    //public Algebra.Vector(Algebra.Point p, float x, float y, float z){ // Defined from a point with the coordinates of the origin
+    //    this.origin = new Algebra.Point(x, y, z);
     //    this.x = p.getX();
     //    this.y = p.getY();
     //    this.z = p.getZ();
     //    this.magnitude = calculateMagnitude(x, y, z); // Wrong
     //    System.out.println("Created new vector >> [X: " + x + ", Y: " + y + ", Z: " + z + "]");
     //}
-    //public Vector(Point p, Point q){ // Defined from a point with a point origin
+    //public Algebra.Vector(Algebra.Point p, Algebra.Point q){ // Defined from a point with a point origin
     //    this.origin = p;
     //    this.x = q.getX();
     //    this.y = q.getY();

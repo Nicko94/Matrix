@@ -1,3 +1,5 @@
+package Algebra;
+
 public class Plane {
     private Point p;
     private Point q;

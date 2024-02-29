@@ -1,5 +1,7 @@
+package Algebra;
+
 public class Distance {
-    // Do I really need these constructors? No, because I won't instantiate an object of class Distance... unless I wanted a distance to be an object
+    // Do I really need these constructors? No, because I won't instantiate an object of class Algebra.Distance... unless I wanted a distance to be an object
     private Distance(){
         System.out.println("Stop it, get some help");
     }
@@ -12,13 +14,13 @@ public class Distance {
         return (float) Math.sqrt(deltaX + deltaY + deltaZ);
     }
     public static float calculateDistance(Point p, Line l){
-        // Line attributes:
+        // Algebra.Line attributes:
         Point q = l.getPoint(); // Random point of the line
         Vector lineDirector = l.getVector();
         float directorNorm = lineDirector.getMagnitude();
 
         // Starting the calculations
-        Vector v = new Vector(p, q); // Vector from far away point to a random point of the line
+        Vector v = new Vector(p, q); // Algebra.Vector from far away point to a random point of the line
         Vector w = VectorOperation.crossProduct(v, l.getVector()); // PQ x n <-- (v is the director vector of the line)
         float norm = w.getMagnitude(); // ||PQ x n||
         float distance = norm / directorNorm;

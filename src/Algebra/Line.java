@@ -1,3 +1,5 @@
+package Algebra;
+
 public class Line {
     // Ecuación vectorial: (x, y, z) = (Xo, Yo, Zo) + &(V1, V2, V3)
     // Ecuaciónes paramétricas:
